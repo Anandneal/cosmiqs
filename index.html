@@ -1,0 +1,42 @@
+<head>
+    <meta charset="UTF-8">
+    <title>Cosmiqs</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="icon" href="img/moon.png">
+</head>
+<body>
+    <div class="loadingScreen" style="display: none;"></div>
+    <canvas id="backgroundCanvas" height="850" width="926"></canvas>
+    <div class="menuWindow" id="mainMenu" style="display: block;">
+        <div class="menuTitle">Cosmiqs</div>
+        <div class="button" id="startGame">Start Game</div>
+        <div class="button" id="scoreboard">Score Board</div>
+    </div>
+    <div class="menuWindow" id="name">
+        <div class="menuTitle">Input Name</div>
+        <input type="text" id="nameField">
+        <div class="button" id="confirm">Confirm</div>
+        <div class="button" id="backN">Back</div>
+    </div>
+    <div class="menuWindow" id="scores">
+        <div class="menuTitle">Score Board</div>
+        <div class="scoreHolder"></div>
+        <div class="button" id="backS">Back</div>
+    </div>
+    <div class="gameWindow">
+        <canvas id="gameCanvas" height="850" width="926"></canvas>
+        <div class="gameText" id="pausedText">Paused</div>
+        <div class="gameText" id="gameInfo">Press Space to Jump<br><br>Press P to pause</div>
+        <div class="gameScore"></div>
+    </div>
+    <div class="menuWindow" id="gameOverWindow">
+        <div class="menuTitle">Game Over</div>
+        <div class="button" id="gameR">Restart</div>
+        <div class="button" id="gameM">Menu</div>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+
+
+    <imgscr=name.png>Impales#2295</imgscr=name.png>
+</body>
+</html>
